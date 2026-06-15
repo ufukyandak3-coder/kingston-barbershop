@@ -1,0 +1,19 @@
+@layer layout {
+  .wrapper {
+    max-width: var(--max-width);
+    margin-inline: auto;
+    padding-inline: var(--gutter);
+  }
+
+  .section {
+    min-height: 100dvh;
+    padding-block: var(--space-xl);
+    padding-inline: var(--gutter);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--space-md);
+  }
+}
