@@ -224,6 +224,17 @@ export function Contact() {
               <span className="text-ink-soft text-[10px] tracking-[0.4em] uppercase">
                 Powstańców 86 · Nowa Huta · Kraków
               </span>
+              <span className="text-ink/30 text-[10px] tracking-[0.3em] uppercase">
+                Designed &amp; developed by{" "}
+                <a
+                  href="https://www.valthusagency.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline underline-offset-2 hover:text-ink/50 transition-colors"
+                >
+                  Valthus Agency
+                </a>
+              </span>
             </div>
           </Reveal>
 
